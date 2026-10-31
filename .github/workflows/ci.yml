@@ -1,0 +1,31 @@
+name: ci
+
+# Provenance: faxforagents/mcp/.github/workflows/ci.yml (2026-10-31), actions pinned by SHA.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  truthcheck:
+    name: truth pins
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - run: sh scripts/truthcheck.sh
+
+  skill:
+    name: SKILL.md frontmatter follows the Agent Skills format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - run: python3 scripts/check_skill.py
