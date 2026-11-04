@@ -53,7 +53,7 @@ openclaw skills install fax-for-agents
 ```
 
 Use the owner-qualified identifier if the approved listing requires it.
-See [ClawHub submission notes](submissions/clawhub.md) for the licence conflict and owner decision.
+See [ClawHub submission notes](submissions/clawhub.md) for the MIT-0 skill licence and the owner decision.
 
 ## Zo
 

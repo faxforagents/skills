@@ -23,7 +23,7 @@ Prepared B01 for review without publishing.
 - Added Zo display metadata and its secret declaration.
 - Prepared npm packaging for Pi and skillpm.
 - Added ClawHub, Zo, and OpenHands submission notes.
-- Recorded pending sandbox verification and ClawHub's licence conflict.
+- Recorded pending sandbox verification. The skill package is MIT-0 for ClawHub.
 
 The package version is `1.0.0`.
 This entry does not announce a published release.
