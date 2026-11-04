@@ -1,7 +1,7 @@
 ---
 name: fax-for-agents
 description: Send and receive faxes through Fax for Agents. Use for fax preparation, price quotes, delivery checks, inbox reading, and extraction.
-license: MIT
+license: MIT-0
 metadata:
   author: faxforagents
   homepage: https://faxforagents.com/
@@ -22,10 +22,10 @@ Send and receive faxes through an API or MCP tools.
 
 [Site](https://faxforagents.com/) | [Docs](https://faxforagents.com/docs/quickstart/) | [MCP](https://faxforagents.com/mcp/) | [Dashboard](https://app.faxforagents.com/) | [Pricing](https://faxforagents.com/pricing/) | [Changelog](https://faxforagents.com/changelog/)
 
-[![MIT licence](https://img.shields.io/badge/licence-MIT-1f6feb)](https://github.com/faxforagents/skills/blob/main/LICENSE)
+[![MIT-0 licence](https://img.shields.io/badge/licence-MIT--0-1f6feb)](https://github.com/faxforagents/skills/blob/main/skills/fax-for-agents/LICENSE)
 [![Agent Skills](https://img.shields.io/badge/format-Agent%20Skills-6b4fbb)](https://agentskills.io/)
 
-Licence: [MIT](https://github.com/faxforagents/skills/blob/main/LICENSE).
+Licence: [MIT-0](https://github.com/faxforagents/skills/blob/main/skills/fax-for-agents/LICENSE) for the skill package. The repository stays MIT.
 
 ## Setup
 

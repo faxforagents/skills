@@ -6,10 +6,10 @@ Send and receive faxes through an API or MCP tools.
 
 [Site](https://faxforagents.com/) | [Docs](https://faxforagents.com/docs/quickstart/) | [MCP](https://faxforagents.com/mcp/) | [Dashboard](https://app.faxforagents.com/) | [Pricing](https://faxforagents.com/pricing/) | [Changelog](https://faxforagents.com/changelog/)
 
-[![MIT licence](https://img.shields.io/badge/licence-MIT-1f6feb)](https://github.com/faxforagents/skills/blob/main/LICENSE)
+[![MIT-0 licence](https://img.shields.io/badge/licence-MIT--0-1f6feb)](https://github.com/faxforagents/skills/blob/main/skills/fax-for-agents/LICENSE)
 [![Agent Skills](https://img.shields.io/badge/format-Agent%20Skills-6b4fbb)](https://agentskills.io/)
 
-Licence: [MIT](https://github.com/faxforagents/skills/blob/main/LICENSE).
+Licence: [MIT-0](https://github.com/faxforagents/skills/blob/main/skills/fax-for-agents/LICENSE).
 
 ## Reviewed listing copy
 
@@ -27,10 +27,8 @@ Live sends use a paid Fax for Agents account.
 
 The package is prepared locally and has not been published.
 The [ClawHub format](https://github.com/openclaw/clawhub/blob/main/docs/skill-format.md#license) requires MIT-0 for published skills.
-This repository and package retain MIT as requested.
-Do not publish this artifact unchanged to ClawHub.
-Ben must resolve the licence conflict before publication.
-No alternate licence grant is included here.
+The skill package `skills/fax-for-agents` is licensed MIT-0 since 2026-11-04, so it may be published unchanged.
+The repository as a whole stays MIT.
 
 Runtime requirements are declared under `metadata.openclaw`.
 `FAXFORAGENTS_API_KEY` is required for REST and stdio, while hosted OAuth uses client authentication.
@@ -40,7 +38,7 @@ Portable trigger phrases remain under `metadata.triggers`.
 ## B01 commands
 
 These are preparation and future publication commands, not a record of execution.
-Run them from this repository after resolving the licence conflict.
+Run them from this repository.
 
 ```bash
 skills-ref validate skills/fax-for-agents
