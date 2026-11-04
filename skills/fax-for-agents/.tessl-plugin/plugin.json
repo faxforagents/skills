@@ -1,0 +1,9 @@
+{
+  "name": "fax-for-agents/fax-for-agents",
+  "description": "Send and receive faxes through Fax for Agents. Use for fax preparation, price quotes, delivery checks, inbox reading, and extraction.",
+  "private": true,
+  "skills": [
+    "."
+  ],
+  "version": "1.0.0"
+}
