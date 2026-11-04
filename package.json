@@ -1,0 +1,33 @@
+{
+  "name": "@faxforagents/fax-for-agents",
+  "version": "1.0.0",
+  "description": "Send and receive faxes through Fax for Agents MCP tools or REST APIs.",
+  "keywords": [
+    "agent-skill",
+    "pi-package",
+    "fax",
+    "mcp"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "files": [
+    "skills/fax-for-agents/",
+    "README.md",
+    "CHANGELOG.md",
+    "SECURITY.md",
+    "LICENSE",
+    "submissions/"
+  ],
+  "license": "MIT",
+  "homepage": "https://faxforagents.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faxforagents/skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/faxforagents/skills/issues"
+  }
+}
