@@ -26,8 +26,8 @@ Installing the skill does not authenticate an MCP connection.
 
 ## Pi and skillpm
 
-The npm package is prepared for publication.
-After publication, install it with Pi:
+The npm package `@faxforagents/fax-for-agents` is on npm.
+Install it with Pi:
 
 ```bash
 pi install npm:@faxforagents/fax-for-agents
@@ -45,14 +45,16 @@ Keywords make the package eligible for discovery without guaranteeing gallery pl
 
 ## ClawHub
 
-Publication and security review are pending.
-After an authorized release becomes installable, use:
+The skill is on ClawHub as `fax-for-agents` under the publisher `faxforagents`.
+Install it, then point the skill at your key:
 
 ```bash
-openclaw skills install fax-for-agents
+openclaw skills install @faxforagents/fax-for-agents
+openclaw config set skills.entries.fax-for-agents.apiKey --ref-provider default --ref-source env --ref-id FAXFORAGENTS_API_KEY
 ```
 
-Use the owner-qualified identifier if the approved listing requires it.
+The config line is required because the OpenClaw exec tool does not inherit `FAXFORAGENTS_API_KEY` from your shell.
+It stores a reference to the variable, not the key.
 See [ClawHub submission notes](submissions/clawhub.md) for the MIT-0 skill licence and the owner decision.
 
 ## Zo

@@ -106,6 +106,17 @@ See [Cursor MCP configuration](https://cursor.com/docs/context/mcp).
 
 ## OpenClaw
 
+ClawHub skill install (the skill's REST path, checked with OpenClaw 2026.11.1 on 2026-11-06):
+
+```bash
+openclaw skills install @faxforagents/fax-for-agents
+openclaw config set skills.entries.fax-for-agents.apiKey --ref-provider default --ref-source env --ref-id FAXFORAGENTS_API_KEY
+```
+
+The second line is needed because the OpenClaw exec tool does not inherit `FAXFORAGENTS_API_KEY` from your shell.
+Without it, every curl call in the skill answers `401 invalid_token`.
+The config stores a reference to the variable, not the key.
+
 Hosted OAuth:
 
 ```bash
